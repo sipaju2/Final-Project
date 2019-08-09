@@ -1,0 +1,366 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav p {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: dimgrey;
+    font-size: 40px;
+    line-height: 50px;
+    float: left;
+    padding: 10px 20px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: column;
+    align-content: center;
+    justify-content: center;
+    font-family: monospace;
+
+}
+
+.exp {
+    width: 95%;
+    margin:0 auto;
+    height: 50px;
+    margin: 15px;
+    border:none;
+    font-size: 50px;
+}
+
+label {
+    font-size: 20px;
+}
+
+.button {
+    margin-top: 10px;
+    font-size: 24px;
+    box-shadow: rgba(101, 41, 255, 0.15) 0px 10px 20px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    display: inline-block;
+    justify-self: center;
+    white-space: nowrap;
+    background: linear-gradient(104.74deg,grey 0%, rgb(65, 150, 4) 100%);
+    border-radius: 30px;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    padding: 16px 60px;
+    outline: none;
+    width: 100%;
+    transition: all 0.8s cubic-bezier(0.2, 0.8, 0.2, 1.2) 0s;
+}
+.button:hover {
+    opacity:0.5;
+}
+
+p {
+    color:white;
+    font-size:50px;
+    text-align: center;
+}
+
+.fieldset {
+    border-radius: 30px;
+    padding: 10px;
+    margin: 20px 10px 10px 10px;
+    -webkit-animation: action 1s infinite  alternate;
+    animation: action 1s infinite  alternate;
+    transition: all 0.8s cubic-bezier(0.2, 0.8, 0.2, 1.2) 0s;
+    background-color:red;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+   
+    
+}
+
+@-webkit-keyframes action {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+@keyframes action {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+
+
+
+
+.form {
+    width: 500px;
+    height: 500px;
+    
+}
+
+
+
+.container {
+    display: grid;
+    grid-template-columns: column;
+    align-content: center;
+    justify-content: center;
+    font-family: monospace;
+
+}
+
+/*Top Nav Bar Container of Sorts*/
+header {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    box-shadow: 0 0 25px 0 black;
+}
+
+/*Nav Bar "Buttons"*/
+nav p ul.menu {
+    padding: 10px;
+    float: left;
+}
+
+nav ul.menu li.menuitem {
+    list-style: none;
+    float: left;
+    margin: 5px;
+    position: relative;
+    font-size: 18px;
+}
+
+nav ul.menu li.menuitem a {
+    display: block;
+    color: white;
+    background-color: darkslategrey;
+    padding: 20px 80px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+/* Change the menu link color on hover */
+nav ul.menu li.menuitem a:hover {
+    background-color: #4CAF50;
+    color: white;
+} 
+
+/* Make the active link (the current page you're on) a different color */
+nav ul.menu li.menuitem .active {
+    background-color: mintcream;
+    color:black;
+    padding: 17px 75px;
+    text-decoration: underline;
+    font-weight: 900;
+    border-style: double;
+    border-color: darkslategrey;
+} 
+
+/*"Inactivate" hover on active link*/
+nav ul.menu li.menuitem a:hover.active {
+    background-color: mintcream;
+    color:black;
+    text-decoration: underline;
+    font-weight: 900;
+    border-style: double;
+    border-color: darkslategrey;
+} 
+
+/*-------------------------*/
+/*CONTACTS DROP DOWN*/
+/*Contacts Drop Down Content*/
+nav ul.menu li.menuitem ul {
+    display: none;
+    position: absolute;
+    border: 8px double darkslategrey;
+    background-color: #4CAF50;
+}
+
+/* Drop Down Items*/
+nav ul.menu li.menuitem ul li {
+    list-style: none;
+    width: 200px;
+    text-align: right;
+}
+
+/*Links Inside the Contacts Drop Down*/
+nav ul.menu li.menuitem ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 14px;
+    background-color: #4CAF50;
+}
+
+/*Make Drop Down Menu Appear*/
+nav ul.menu li.menuitem:hover ul {
+    display: block;
+}
+
+/*Hover Over Drop Down Menu Items*/
+nav ul.menu li.menuitem ul li a:hover {
+    background-color: #4CAF50;
+    display: block;
+}
+/*-------------------------*/
+
+/*Background Pics*/
+.indexpic {
+    background-image: url("img/index2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% auto;
+    background-position: center;
+/*background-color: mintcream;*/
+}
+
+.page2pic {
+    background-image: url("img/page2back.jpg");
+   background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% auto;
+    background-position: center;
+}
+
+.page3pic {
+    background-image: url("img/page3back.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% auto;
+    background-position: center;
+}
+
+.page4pic {
+    background-image: url("img/page4back.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% auto;
+    background-position: center;
+}
+
+
+/*BODY STYLES*/
+/*BODY STYLES*/
+/*BODY STYLES*/
+
+.translucent {
+    background: rgba(255, 255, 255, 0.8);
+}
+
+a {
+    color: darkslategrey;
+    /*font-weight: bold;*/
+    text-decoration: underline;
+}
+
+h2 {
+    color: darkslategray;
+    text-align: center;
+}
+
+p {
+    color: dimgray;
+    font-size: 14pt;
+}
+
+.extrainfo {
+    color: gray;
+    font-style: italic;
+    font-family: serif;
+}
+
+.blurb {
+    color: mintcream;
+    background-color: dimgrey;
+    border-width: 3px;
+    border-style: double;
+    float: right;
+    font-style: italic;
+    font-size: 24pt;
+    padding: 15px 15px 15px 15px;
+    margin: 10px;
+    width: 400px;
+}
+
+.center {
+    max-width: 1100px;
+    margin: 30px auto auto auto;
+    padding: 30px;
+    border-style: solid;
+    border-width: 0px 5px 0px 10px;
+    border-color: dimgrey;
+    border-radius: 20px;
+}
+
+.table {
+    max-width: 800px;
+    margin: auto;
+    border-radius: 20px 20px;
+}
+
+div.translucent div.chart {
+    border-style: solid;
+    border: 1px 3px 1px 3px;
+    background-color: mintcream;
+    border-color: darkslategrey;
+    margin: 10px auto 10px auto;
+    padding: 10px;
+    max-width: 1000;
+    text-align: center;
+    display: inline-block;
+}
+
+div.translucent div.chart img {
+    width: 400px;
+    padding: 10px;
+    float: left;
+    margin: 10px 50px 10px 50px;
+}
+
+/*Horizontal Line Breaks*/
+hr {
+    display: block;
+    height: 5px;
+    border: 0;
+    width: 80%;
+    background: darkslategray;
+    border-radius: 10px;
+    margin: auto;
+}
+
+/*Table of Contents Nav Bar*/
+ul.contents {
+    list-style-type: none;
+    /*margin: 30;*/
+    padding: 10px;
+    /*width: 150px;*/
+    overflow: hidden;
+    text-align: center;
+    /*position: fixed;*/
+    /*top:0;*/
+    color: mintcream;
+    /*display: inline;*/
+} 
+
+li.contentsitem a {
+    color: white;
+    background-color: #4CAF50;
+    padding: 15px 100px;
+    text-decoration: none;
+    font-weight: 500;
+    margin: 20px;
+    font-size: 20pt;
+    font-family: sans-serif;
+    /*float: right;*/
+    display: block;
+}
+    
+/* Change the menu link color on hover */
+li.contentsitem a:hover {
+    background-color: mintcream;
+    color: dimgrey;
+    font-style: italic;
+} 

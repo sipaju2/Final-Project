@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<title>Patrick's Website - Ooh, it's so sexy
+	</title>
+	<link rel="stylesheet" type="text/css" href="./housing.css">
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
+
+
+</head>
+<!--CHANGE body class for background pic-->
+
+<body class="page3pic">
+
+	<!--Navigation bar-->
+	<!--CHANGE which a link is "active-->
+	<header>
+		<!--	<div class="center" style="background-color: white;"> -->
+		<nav>
+			<p>Housing</p>
+			<ul class="menu">
+				<li class="menuitem"><a href="housing1.html">Home</a></li>
+				<li class="menuitem"><a href="housing2.html">Analysis</a></li>
+				<li class="menuitem"><a class="active">Prediction</a></li>
+				<li class="menuitem"><a href="housing4.html">Contact</a></li>
+				
+	
+			</ul>
+		</nav>
+		<!--	</div> -->
+	</header>
+
+	<!--Table of Contents-->
+	<a name="top"></a>
+
+	<br>
+	<br>
+	<br>
+	<br>
+	<!--<div class="table" style="margin-top: 120px; background-color:lightgray;">-->
+
+
+		<!--CHANGE Table of Contents-->
+		<div class="container">
+			<img
+				src="https://www.investopedia.com/thmb/r724-LvMBMsOY4_-svz0EWAPIyU=/1000x750/filters:fill(auto,1)/shutterstock_107797970_housing_interest_rate-5bfc307146e0fb0083c15f85.jpg" />
+
+			<form action="/predict" method="POST" class="form">
+				<div class="fieldset">
+					<label>What Year are you expecting to Purchase your House In California? </label>
+					<input class="exp" name="exp" />
+				</div>
+				<input type="submit" class="button" value="predict">
+
+			</form>
+		</div>
+	<!--</div>-->
+</body>
+
+<!-- I can't get this to work
+<script type="text/javascript" src="housing.js">
+</script>
+-->
+
+</html>
