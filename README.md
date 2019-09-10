@@ -3,15 +3,23 @@
 # United States Housing
 
 ## DATA SOURCES
+
 www.kaggle.com
+
 www.zillow.com
 
-# Analysis of the United States Housing based on this factors:
+## Analysis of the United States Housing based on this factors:
+
 -Type
+
 -Crime
+
 -Minimum Wage
+
 -Median Income
+
 -Building Rate / House Age
+
 
 Process:
 
@@ -24,10 +32,15 @@ Process:
  # Bonus
  
  ## Next Step
+ 
 Analyzing other Factors like:
+
 Gentrification
+
 State Taxes Per State
+
 Expanding Our Model to Predict The Median Price Base on Zip code.
+
 External Input.
 
     
