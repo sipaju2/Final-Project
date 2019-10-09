@@ -8,7 +8,7 @@ www.kaggle.com
 
 www.zillow.com
 
-## Analysis of the United States Housing based on this factors:
+## Analysis of the United States Housing based on keys factors:
 With the Housing Price keep going up let's understand reason and find possible solution to improve this market base on data analysis.
 
 Here are the factors we will be studying in this assigment.
@@ -35,11 +35,15 @@ Process:
    - Vizualisation
         After Analyzing the data we used Html, Js and Css to present our result or to facilitate the vizualisation of our          research.
         
-   - Predictioon of future Prices if trends remain the same.
-        After all the analysis, we needed to predict what will be the Median Housing Price if all the conditions remains the same. (Here the  base on the input of the User the housing price will vary base on the Year and its keep growing, we used A linear Regression here)
- 
+   - Make powerpoint slides for final presentation
  
  # Bonus
+ 
+  - Predictioon of future Prices if trends remain the same.
+        After all the analysis, we needed to predict what will be the Median Housing Price if all the conditions remains the same. (Here the  base on the input of the User the housing price will vary base on the Year and its keep growing, we used A linear Regression here)
+        
+ 
+ 
  
  ## Next Step
  
@@ -54,4 +58,4 @@ Expanding Our Model to Predict The Median Price Base on Zip code.
 External Input.
 
     
-   Make powerpoint slides for final presentation
+
