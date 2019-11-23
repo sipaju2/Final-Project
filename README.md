@@ -14,15 +14,24 @@ With the Housing Price keep going up let's understand reason and find possible s
 Here are the factors we will be studying in this assigment.
 
 -Type of House (1br, 2Br, 3Br, condo, top tier, bottom tier)
+![alt text](https://raw.githubusercontent.com/sipaju2/Final-Project/master/images/histhomes.png)
 
 -Crime (per states over the time)
+![alt text](https://raw.githubusercontent.com/sipaju2/Final-Project/master/images/cimeslines.png)
 
 -Minimum Wage (per states over the time)
 
+![alt text](https://raw.githubusercontent.com/sipaju2/Final-Project/master/images/minimum.png)
+
 -Median Income (per states over the time)
+![alt text](https://github.com/sipaju2/Final-Project/blob/master/images/Screenshot%20(3).png)
+![alt text](https://github.com/sipaju2/Final-Project/blob/master/images/Screenshot%20(6).png)
+
 
 -Building Rate / House Age 
-
+![alt text](https://github.com/sipaju2/Final-Project/blob/master/images/Screenshot%20(4).png)
+![alt text](https://github.com/sipaju2/Final-Project/blob/master/images/Screenshot%20(5).png)
+![alt text](https://github.com/sipaju2/Final-Project/blob/master/images/Screenshot%20(7).png)
 
 Process:
 
@@ -41,7 +50,8 @@ Process:
  
   - Predictioon of future Prices if trends remain the same.
         After all the analysis, we needed to predict what will be the Median Housing Price if all the conditions remains the same. (Here the  base on the input of the User the housing price will vary base on the Year and its keep growing, we used A linear Regression here)
-        
+
+![alt text](https://github.com/sipaju2/Final-Project/blob/master/images/Screenshot%20(8).png)  
  
  
  
